@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "MostrarDatos";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MostrarDatos</title>
+</head>
+<body>
+    <div>
+
+        <h3>Usuario Agregado Correctamente </h3>
+
+
+        <h4>Cedula</h4>
+        <h6>@Model.Cedula</h6>
+
+        <h4>Nombre</h4>
+        <h6>@Model.Nombre</h6>
+
+        <h4>Apellido</h4>
+        <h6>@Model.Apellido</h6>
+
+        <h4>Edad</h4>
+        <h6>@Model.Edad</h6>
+
+        <h4>Telefono</h4>
+        <h6>@Model.Telefono</h6>
+
+        <h4>Correo Electronico</h4>
+        <h6>@Model.Correo</h6>
+
+        <h4>Genero</h4>
+        <h6>@Model.Genero</h6>
+
+        <h4>Estado Civil</h4>
+        <h6>@Model.Estado_Civil</h6>
+
+        <h4>Hobbys</h4>
+        <h6> @ViewBag.Hobbys</h6>
+
+    </div>
+</body>
+</html>
